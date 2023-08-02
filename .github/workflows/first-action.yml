@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: Ubuntu 22.04 
     steps:
-      -name: Print greeting
+      - name: Print greeting
         run: echo "Hello Friends"
-      -name: Print Goodbye
+      - name: Print Goodbye
         run: echo "Done -bye!"
